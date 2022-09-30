@@ -33,6 +33,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h3 {
+  font-size: 48px;
+}
 p {
   font-size: 16px;
   line-height: 30px;
@@ -52,6 +55,15 @@ p {
   font-size: 16px;
   line-height: 27px;
   padding: 18px 30px;
+  transition: all 200ms ease-in-out;
+}
+a.btn-branding:hover {
+  border-radius: 4px !important;
+  padding: 18px 30px !important;
+  font-size: 16px !important;
+  line-height: 27px !important;
+  border: 1px solid var(--button-color) !important;
+  color: var(--button-color) !important;
 }
 .btn-branding-outline {
   border-radius: 4px;
@@ -60,9 +72,37 @@ p {
   line-height: 27px;
   border: 1px solid var(--button-color);
   color: var(--button-color);
+  transition: all 200ms ease-in-out;
+}
+a.btn-branding-outline:hover {
+  background-color: var(--button-color) !important;
+  border-radius: 4px !important;
+  color: white !important;
+  font-size: 16px !important;
+  line-height: 27px !important;
+  padding: 18px 30px !important;
 }
 .project-description {
   margin: 120px 40px;
+}
+.work-inquiry {
+  background-color: var(--branding-color);
+  padding: 30px 5px;
+  margin-top: 100px;
+}
+.work {
+  padding: 0 0 0 50px;
+}
+.fa-facebook-f {
+  color: var(--button-color);
+  font-size: 25px;
+  padding: 20px;
+}
+
+.fa-instagram {
+  color: var(--button-color);
+  padding: 20px;
+  font-size: 25px;
 }
 
 @media (max-width: 960px) {
@@ -78,7 +118,13 @@ p {
   h2 {
     font-size: 44px;
   }
+  h3 {
+    font-size: 36px;
+  }
   .hero {
     padding: 80px 20px;
+  }
+  .work-inquiry {
+    text-align: center;
   }
 }
