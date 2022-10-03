@@ -47,21 +47,32 @@ p {
   font-size: 24px;
   color: #677079;
 }
-.about-hero {
+.content-container {
   padding: 160px 20px;
 }
-.about-hero h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-hero h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   color: #677079;
 }
-.about-section-content {
+.content {
   margin: 50px;
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+  color: #677079;
+}
+.content p {
+  font-size: 14px;
+  margin: 0;
 }
 .btn-branding {
   background-color: var(--button-color);
@@ -142,7 +153,7 @@ a.btn-branding-outline:hover {
   .work-inquiry {
     text-align: center;
   }
-  .about-hero {
+  .content-container {
     text-align: center;
     padding: 0;
   }
