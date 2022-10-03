@@ -119,16 +119,16 @@ a.btn-branding-outline:hover {
 .work {
   padding: 0 0 0 50px;
 }
-.fa-facebook-f {
-  color: var(--button-color);
+.fa-facebook-f,
+.fa-instagram,
+.fa-github {
+  color: #677079;
   font-size: 25px;
   padding: 20px;
+  transition: all 100ms ease-in-out;
 }
-
-.fa-instagram {
+i.fa-brands:hover {
   color: var(--button-color);
-  padding: 20px;
-  font-size: 25px;
 }
 .navigation {
   background-color: var(--branding-color);
@@ -193,5 +193,13 @@ nav li.active a {
   }
   nav a {
     font-size: 14px;
+  }
+  .work {
+    padding: 0;
+  }
+  .fa-facebook-f,
+  .fa-instagram,
+  .fa-github {
+    margin-top: 20px;
   }
 }
