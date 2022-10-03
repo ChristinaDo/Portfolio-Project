@@ -111,11 +111,11 @@ a.btn-branding-outline:hover {
 .project-description {
   margin: 120px 40px;
 }
-.contact {
+.contact-links {
   color: #677079;
   text-decoration: none;
 }
-a.contact:hover {
+a.contact-links:hover {
   color: var(--button-color);
 }
 .work-inquiry {
