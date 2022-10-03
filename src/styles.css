@@ -12,7 +12,7 @@ body {
 .hero {
   background-color: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -48,7 +48,7 @@ p {
   color: #677079;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -61,7 +61,7 @@ p {
   color: #677079;
 }
 .content {
-  margin: 50px;
+  margin: 30px 30px -45px 30px;
 }
 .content h3 {
   font-size: 24px;
@@ -165,18 +165,26 @@ nav li.active a {
     padding: 0;
     text-align: center;
   }
-  h1 {
-    font-size: 44px;
+  h1,
+  .content h1 {
+    font-size: 50px;
     line-height: 56px;
+  }
+  .hero p {
+    font-size: 24px;
+  }
+  .hero h2 {
+    font-size: 18px;
   }
   h2 {
     font-size: 44px;
   }
-  h3 {
-    font-size: 36px;
+  h3,
+  .content h3 {
+    font-size: 18px;
   }
-  .hero {
-    padding: 80px 20px;
+  .work-inquiry h3 {
+    font-size: 36px;
   }
   .work-inquiry {
     text-align: center;
@@ -184,6 +192,9 @@ nav li.active a {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  .content {
+    margin-bottom: -45px;
   }
   .logo {
     max-height: 60px;
