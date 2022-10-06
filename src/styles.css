@@ -61,7 +61,7 @@ p {
   color: #677079;
 }
 .content {
-  margin: 30px 30px -45px 30px;
+  margin: 0px 30px -45px 30px;
 }
 .content h3 {
   font-size: 24px;
@@ -141,7 +141,7 @@ i.fa-brands:hover {
   background-color: var(--branding-color);
 }
 .logo {
-  max-height: 100px;
+  max-height: 80px;
 }
 nav {
   padding: 20px 0;
@@ -153,7 +153,7 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 100px;
+  line-height: 80px;
   margin-left: 15px;
 }
 nav a {
@@ -164,6 +164,10 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--button-color);
+}
+
+footer p.text-center {
+  font-size: 12px;
 }
 
 @media (max-width: 960px) {
@@ -201,7 +205,7 @@ nav li.active a {
     padding: 0;
   }
   .content {
-    margin-bottom: -45px;
+    margin: 30px 30px -45px 30px;
   }
   .logo {
     max-height: 60px;
@@ -219,5 +223,8 @@ nav li.active a {
   .fa-instagram,
   .fa-github {
     margin-top: 20px;
+  }
+  .mypicture {
+    width: 300px;
   }
 }
